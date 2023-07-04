@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Productivity Tracker Options</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    input[type="number"] {
+      width: 80px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Productivity Tracker Options</h1>
+  <label for="threshold">Threshold Time (in minutes):</label>
+  <input type="number" id="threshold" min="1" step="1" value="120">
+  <button id="saveBtn">Save</button>
+
+  <script src="options.js"></script>
+</body>
+</html>

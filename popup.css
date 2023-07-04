@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tracker {
+  margin-bottom: 20px;
+}
+
+.tracker label {
+  font-weight: bold;
+}
+
+.tracker input {
+  width: 200px;
+  margin-right: 10px;
+}
+
+.result {
+  text-align: center;
+}
+
+.result p {
+  font-weight: bold;
+}
+
+.result #timeSpent {
+  color: #ff0000;
+}
